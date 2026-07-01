@@ -36,15 +36,16 @@
   a{color:var(--accent);text-decoration:none;border-bottom:1px dashed rgba(110,168,254,.5)}
   .note{color:var(--muted);font-size:13px;margin-top:14px}
   .footer{color:var(--muted);font-size:13px;text-align:center;margin-top:28px}
-  .lang{font-size:13px;color:var(--muted);margin-bottom:6px}
-  .lang a{border-bottom:1px dashed rgba(47,111,237,.5)}
+  .lang{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .lang a,.lang b{font-size:15px;font-weight:700;padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted);text-decoration:none;line-height:1}
+  .lang b{background:var(--accent);color:#fff;border-color:var(--accent)}
 </style>
 </head>
 <body>
 <div class="wrap">
 
   <header class="hero">
-    <div class="lang"><a href="index.html">EN</a> · <a href="ko.html">한국어</a> · <b>Tiếng Việt</b></div>
+    <div class="lang"><a href="index.html">EN</a><a href="ko.html">한국어</a><b>Tiếng Việt</b></div>
     <div class="flag">🇻🇳 → 🇰🇷</div>
     <h1>Team Vietnam · Workation tại Hàn Quốc</h1>
     <div class="sub">Tháng 7/2026 · Workation 2 tuần · Văn phòng Waldlust Hàn Quốc</div>
