@@ -33,15 +33,9 @@
   .day ul{margin:8px 0 0;padding-left:18px}
   .day li{margin:3px 0;font-size:14.5px}
   .pill{display:inline-block;font-size:12px;color:#0e1524;background:var(--accent2);padding:2px 9px;border-radius:999px;font-weight:700;margin-left:6px}
-  .todo{color:#b26a00;font-size:12.5px}
   a{color:var(--accent);text-decoration:none;border-bottom:1px dashed rgba(47,111,237,.5)}
   .note{color:var(--muted);font-size:13px;margin-top:14px}
-  .steps{counter-reset:s;margin:6px 0 0;padding:0;list-style:none}
-  .steps li{counter-increment:s;position:relative;padding:8px 0 8px 34px;border-top:1px solid var(--line);font-size:15px}
-  .steps li:first-child{border-top:0}
-  .steps li::before{content:counter(s);position:absolute;left:0;top:8px;width:24px;height:24px;border-radius:50%;
-    background:var(--accent);color:#fff;font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center}
-  footer{color:var(--muted);font-size:13px;text-align:center;margin-top:28px}
+  .footer{color:var(--muted);font-size:13px;text-align:center;margin-top:28px}
   .lang{font-size:13px;color:var(--muted);margin-bottom:6px}
   .lang a{border-bottom:1px dashed rgba(47,111,237,.5)}
 </style>
@@ -53,7 +47,7 @@
     <div class="lang"><a href="index.html">EN</a> · <b>한국어</b></div>
     <div class="flag">🇻🇳 → 🇰🇷</div>
     <h1>베트남 팀 · 한국 워케이션</h1>
-    <div class="sub">2026년 7월 5일(도착) – 7월 16일(출국) · 발트루스트 한국 사무실</div>
+    <div class="sub">2026년 7월 · 2주 워케이션 · 발트루스트 한국 사무실</div>
     <div class="facts">
       <span class="chip">🕘 근무 09:00–18:00 KST</span>
       <span class="chip">🍚 점심 12:00부터</span>
@@ -77,42 +71,38 @@
 
   <section>
     <h2><span class="ic">🗓️</span> 일정</h2>
-    <p class="sub" style="margin-top:0">대부분 평소 하던 일을 함께 — 메인은 <b>HR Manager</b>, 그때그때 운영 / PHP 프로젝트 업무도. 첫날만 짧은 온보딩, 이후엔 옆에서 같이 일하며 매일 짧은 스탠드업.</p>
+    <p class="sub" style="margin-top:0">대부분 <b>하던 작업</b>을 옆에서 함께. 첫날만 짧은 온보딩이고, 우리 시스템 소개 — 기존 <b>오더앱(PHP)</b>, <b>Appfit</b> 등 — 을 합니다. 매일 짧은 스탠드업.</p>
 
     <div class="day"><div class="d">7/6 (월) — Day 1 · 온보딩 (OJT) <span class="pill">OJT</span></div>
       <ul>
         <li>환영, 사무실 투어, 좌석 세팅 (출입, WiFi, 장비)</li>
         <li>회사 &amp; 브랜드 개요, 조직 &amp; 인원 소개(who's who), 사무실 / 문화</li>
-        <li>간단 소개: HR Manager + PHP 프로젝트 &amp; 운영업무</li>
+        <li>시스템 소개: 기존 오더앱(PHP), Appfit 등</li>
         <li>환영 점심</li>
       </ul></div>
 
     <div class="day"><div class="d">7/7 (화) – 7/10 (금) · 함께 근무 (Week 1)</div>
-      <ul><li>HR Manager 평소 작업. 매일 아침 스탠드업, 옆에서 같이 보며 즉시 언블록.</li></ul></div>
+      <ul><li>하던 작업 계속. 매일 아침 스탠드업, 옆에서 같이 보며 즉시 언블록.</li></ul></div>
 
-    <div class="day"><div class="d">7/11–12 (토–일) · 주말 외출 🎒</div>
-      <ul><li>관광 / 팀 외출 — 세부는 같이 정하기.</li></ul></div>
+    <div class="day"><div class="d">7/11–12 (토–일) · 자유시간</div>
+      <ul><li>자유롭게 보내세요 — 따로 준비된 일정 없음.</li></ul></div>
 
     <div class="day"><div class="d">7/13 (월) – 7/15 (수) · 함께 근무 (Week 2)</div>
-      <ul><li>HR Manager 계속 진행 (필요 시 운영/PHP 업무도). 마지막 날: 간단 마무리 + 복귀 후 운영 방식 합의.</li></ul></div>
-
-    <div class="day"><div class="d">7/16 (목) — 출국</div>
-      <ul><li>출발. 조심히 가세요! ✈️</li></ul></div>
+      <ul><li>하던 작업 계속. 마지막 날: 간단 마무리 + 복귀 후 운영 방식 합의.</li></ul></div>
   </section>
 
   <section>
     <h2><span class="ic">ℹ️</span> 실무 안내</h2>
-    <div class="row"><div class="k">WiFi</div><div class="v">SSID <b>&lt;이름&gt;</b> — 비밀번호는 Day 1 현장에서 공유.</div></div>
+    <div class="row"><div class="k">WiFi</div><div class="v">슬랙으로 별도 공유 (사무실에도 게시).</div></div>
     <div class="row"><div class="k">근무시간</div><div class="v">09:00–18:00 KST · 점심 12:00부터.</div></div>
-    <div class="row"><div class="k">숙소</div><div class="v"><b>&lt;호텔 / 주소&gt;</b> <span class="todo">(채워넣기)</span></div></div>
+    <div class="row"><div class="k">숙소</div><div class="v">사무실 근처 에어비앤비 — 주소는 슬랙으로 별도 공유.</div></div>
     <div class="row"><div class="k">이동</div><div class="v">공항 → 숙소는 공항철도(AREX) / 택시. 지하철·버스용 <b>T-money</b> 카드 준비.</div></div>
     <div class="row"><div class="k">전원</div><div class="v">한국은 <b>220V, 플러그 C/F 타입</b> — 어댑터 지참.</div></div>
-    <div class="row"><div class="k">준비물</div><div class="v">노트북 + 충전기, 여권, 신분증. 7월은 덥고 습함(장마철) — 가벼운 옷 + 작은 우산.</div></div>
-    <div class="row"><div class="k">연락처</div><div class="v">Bell — Slack / <b>&lt;전화&gt;</b>. 사무실 — <b>&lt;담당자&gt;</b>.</div></div>
-    <div class="row"><div class="k">소통</div><div class="v"><b>&lt;#슬랙채널&gt;</b>에서 조율.</div></div>
+    <div class="row"><div class="k">날씨</div><div class="v">다음 주부터 장마(우기) 시작 — <b>우산 꼭</b>. 덥고 습하니 가벼운 옷.</div></div>
+    <div class="row"><div class="k">준비물</div><div class="v">노트북 + 충전기, 여권, 우산.</div></div>
   </section>
 
-  <footer>한국에서 곧 만나요! 🙌 · Waldlust × Team Vietnam</footer>
+  <div class="footer">한국에서 곧 만나요! 🙌 · Waldlust × Team Vietnam</div>
 </div>
 </body>
 </html>
